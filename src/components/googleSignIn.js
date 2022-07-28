@@ -15,7 +15,7 @@ function GoogleSignIn ({ children }) {
       
         // Parameters to pass to OAuth 2.0 endpoint.
         var params = {'client_id': '406973865496-ku7knu3jsfebvh44nskk313h8a879cj2.apps.googleusercontent.com',
-                      'redirect_uri': 'http://localhost:3000',
+                      'redirect_uri': 'https://www.adposit.com',
                       'response_type': 'token',
                       'scope': 'https://www.googleapis.com/auth/calendar',
                       'include_granted_scopes': 'true',
